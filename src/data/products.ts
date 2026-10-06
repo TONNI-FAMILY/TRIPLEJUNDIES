@@ -1,10 +1,15 @@
 import { Product } from '../types';
+import heroBannerImg from '../assets/images/hero_flash_sale_banner_1791132963141.jpg';
+import braProductImg from '../assets/images/product_rose_contour_bra_1791132973259.jpg';
+import undiesBoxImg from '../assets/images/product_cotton_undies_box_1791132984109.jpg';
+import silkSlipImg from '../assets/images/product_silk_lace_slip_dress_1791132996353.jpg';
+import loungewearImg from '../assets/images/brand_lifestyle_loungewear_1791133007280.jpg';
 
-export const HERO_BANNER_IMAGE = '/src/assets/images/hero_flash_sale_banner_1791132963141.jpg';
-export const BRA_PRODUCT_IMAGE = '/src/assets/images/product_rose_contour_bra_1791132973259.jpg';
-export const UNDIES_BOX_IMAGE = '/src/assets/images/product_cotton_undies_box_1791132984109.jpg';
-export const SILK_SLIP_IMAGE = '/src/assets/images/product_silk_lace_slip_dress_1791132996353.jpg';
-export const LOUNGEWEAR_IMAGE = '/src/assets/images/brand_lifestyle_loungewear_1791133007280.jpg';
+export const HERO_BANNER_IMAGE = heroBannerImg;
+export const BRA_PRODUCT_IMAGE = braProductImg;
+export const UNDIES_BOX_IMAGE = undiesBoxImg;
+export const SILK_SLIP_IMAGE = silkSlipImg;
+export const LOUNGEWEAR_IMAGE = loungewearImg;
 
 export const PRODUCTS: Product[] = [
   {

@@ -11,7 +11,7 @@ import { WishlistDrawer } from './components/WishlistDrawer';
 import { CraftsmanshipSection } from './components/CraftsmanshipSection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { Footer } from './components/Footer';
-import { PRODUCTS } from './data/products';
+import { PRODUCTS, BRA_PRODUCT_IMAGE, UNDIES_BOX_IMAGE } from './data/products';
 import { Product, ProductCategory, CartItem } from './types';
 import { SlidersHorizontal, Check, Sparkles, ArrowUpDown, ChevronDown } from 'lucide-react';
 
@@ -42,7 +42,7 @@ export default function App() {
         name: 'CloudSoft Wireless Contour Plunge Bra',
         price: 48,
         originalPrice: 68,
-        image: '/src/assets/images/product_rose_contour_bra_1791132973259.jpg',
+        image: BRA_PRODUCT_IMAGE,
         colorName: 'Rose Quartz',
         colorHex: '#C76977',
         size: '34C',
@@ -54,7 +54,7 @@ export default function App() {
         name: '5-Pack High-Waist Breathe Cotton Undies',
         price: 42,
         originalPrice: 60,
-        image: '/src/assets/images/product_cotton_undies_box_1791132984109.jpg',
+        image: UNDIES_BOX_IMAGE,
         colorName: 'Blush & Nude Ombre Palette',
         colorHex: '#DFA7A2',
         size: 'M',
