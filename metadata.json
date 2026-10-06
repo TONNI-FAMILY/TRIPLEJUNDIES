@@ -1,0 +1,6 @@
+{
+  "name": "Triple J Intimates & Undies",
+  "description": "Shop the End of Season Flash Sale for up to 40% off premium wireless bras, breathable organic cotton high-waist undies, and French lace silk sleepwear by Triple J.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
